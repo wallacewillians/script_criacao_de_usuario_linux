@@ -1,10 +1,12 @@
 #!/bin/bash
+ 
+echo "Iremos criar nesse Script.sh uma Estrutura de Usuarios, Diretórios e Permissões." 
 
-echo "Iremos criar os diretórios."
+echo "Comando abaixo irá criar quatro diretórios, o publico, adm, ven e sec."
 
 mkdir publico/ adm/ ven/ sec/
 
-echo "Iremos criar os grupos GRP_ADM, GRP_VEN e GRP_SEC."
+echo "Comando abaixo irá criar os grupos GRP_ADM, GRP_VEN e GRP_SEC."
 
 groupadd GRP_ADM
 groupadd GRP_VEN
@@ -15,6 +17,7 @@ echo "Dando permissão total para o diretório publico."
 chmod 777 publico/
 
 echo "Vai ser criado os usuários e adicionados nos seus respectivos grupos."
+echo "Foi utilizado a opção -6 como cryptografia, no qual é baseado em SHA512-based."
 
 echo "Criando usuários e adicionando no grupo GRP_ADM."
 
