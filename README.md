@@ -3,7 +3,7 @@ Script de Criação de Estrutura de Usuários, Diretórios e Permissões.
 
 ### 🚀 Projeto para criação do Script.sh.
  
-Nesse pequeno Script é executado comandos no qual tem finalidade de criar novos usuários, diretórios e grupos. Alterando as permissões de leitura, escrita e execução nos diretórios para cada usuário no seu respectivo grupo.
+Nesse pequeno Script é executado comandos no qual tem finalidade de criar novos usuários, diretórios e grupos, alterando as permissões de leitura, escrita e execução nos diretórios para cada usuário no seu respectivo grupo.
 
 Consulte Implantação para saber como implantar o projeto.
 
